@@ -1,0 +1,17 @@
+﻿<div class="row-fluid">
+    <h3 class="header smaller lighter blue">Quản lý thông tin cấu hình website</h3>
+    <form class="form-horizontal" ng-submit="submit($event)" ng-repeat="item in listResouces">
+        <input type="hidden" name="source" value="Setting" />
+        <div class="control-group">
+            <!--<label class="control-label" for="Name">{{item.Name}}:</label>-->
+            <div class="controls">
+                <div class="span12">
+                    <input type="hidden" name="name" value="{{item.Name}}" />
+                    <input type="text" class="span6" name="value" value="{{item.Value}}" colorpicker />
+                    <button type="submit" class="btn btn-small btn-success">Lưu</button>
+                    <span class="help-button" data-trigger="click" data-placement="left" data-content="{{item.Comment}}" data-title="{{item.Name}}" popover>?</span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

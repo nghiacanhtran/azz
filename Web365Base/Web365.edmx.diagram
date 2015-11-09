@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="40191dd1def242ada4fa2c7bd6603053" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="Soft365Model.tblAdverties_Picture_Map" Width="1.5" PointX="11.752364650253377" PointY="13.589720642934424" />
+        <EntityTypeShape EntityType="Soft365Model.tblAdvertise" Width="1.5" PointX="5.0925859944394727" PointY="18.250850328361079" />
+        <EntityTypeShape EntityType="Soft365Model.tblArticle" Width="1.5" PointX="6.44166811296794" PointY="28.289921222389641" />
+        <EntityTypeShape EntityType="Soft365Model.tblComment" Width="1.5" PointX="5.3905895023562893" PointY="22.102235074202639" />
+        <EntityTypeShape EntityType="Soft365Model.tblContact" Width="1.5" PointX="6.9812751184130448" PointY="7.6086504941846478" />
+        <EntityTypeShape EntityType="Soft365Model.tblCustomer" Width="1.5" PointX="9.3329444198556928" PointY="30.588363020954823" />
+        <EntityTypeShape EntityType="Soft365Model.tblDetail" Width="1.5" PointX="5.4465954291851233" PointY="13.262578746891849" />
+        <EntityTypeShape EntityType="Soft365Model.tblDistributor" Width="1.5" PointX="4.5826506021351792" PointY="9.7714190975629815" />
+        <EntityTypeShape EntityType="Soft365Model.tblDomain" Width="1.5" PointX="6.372974303724698" PointY="24.719209548420835" />
+        <EntityTypeShape EntityType="Soft365Model.tblFile" Width="1.5" PointX="5.1793584065415708" PointY="5.0924503081908687" />
+        <EntityTypeShape EntityType="Soft365Model.tblGroup_Article_Map" Width="1.5" PointX="5.8925292966386911" PointY="14.164882875124404" />
+        <EntityTypeShape EntityType="Soft365Model.tblGroup_TypeArticle_Map" Width="1.5" PointX="5.7237564351985961" PointY="21.49055766569942" />
+        <EntityTypeShape EntityType="Soft365Model.tblGroupArticle" Width="1.5" PointX="9.0221496694824417" PointY="16.832842730373535" />
+        <EntityTypeShape EntityType="Soft365Model.tblGroupTypeArticle" Width="1.5" PointX="7.9597708843461108" PointY="17.161906205658756" />
+        <EntityTypeShape EntityType="Soft365Model.tblLanguage" Width="1.5" PointX="0.15604359477574173" PointY="18.556226426063212" />
+        <EntityTypeShape EntityType="Soft365Model.tblLayoutContent" Width="1.5" PointX="6.2248671419103019" PointY="6.9327694805957236" />
+        <EntityTypeShape EntityType="Soft365Model.tblManufacturer" Width="1.5" PointX="6.1263534660108174" PointY="1.5060321546653435" />
+        <EntityTypeShape EntityType="Soft365Model.tblMenu" Width="1.5" PointX="8.3090311942198465" PointY="5.2891245807004745" />
+        <EntityTypeShape EntityType="Soft365Model.tblOrder" Width="1.5" PointX="11.514789305401402" PointY="13.36349578824057" />
+        <EntityTypeShape EntityType="Soft365Model.tblOrder_Shipping" Width="1.5" PointX="4.6282818059568669" PointY="2.651963577909378" />
+        <EntityTypeShape EntityType="Soft365Model.tblOrder_Status" Width="1.5" PointX="6.2327630679275678" PointY="20.240191692598252" />
+        <EntityTypeShape EntityType="Soft365Model.tblOrderDetail" Width="1.5" PointX="5.9058046498828594" PointY="18.229558610464242" />
+        <EntityTypeShape EntityType="Soft365Model.tblPage" Width="1.5" PointX="11.225201954704337" PointY="23.232705097288221" />
+        <EntityTypeShape EntityType="Soft365Model.tblPicture" Width="1.5" PointX="2.1496701176043929" PointY="7.5746328716979514" />
+        <EntityTypeShape EntityType="Soft365Model.tblProduct" Width="1.5" PointX="5.3212362329108807" PointY="8.3754229733605978" />
+        <EntityTypeShape EntityType="Soft365Model.tblProduct_Attribute_Map" Width="1.5" PointX="9.8828829479789739" PointY="16.965960912856254" />
+        <EntityTypeShape EntityType="Soft365Model.tblProduct_Status_Map" Width="1.5" PointX="2.7694177398315714" PointY="4.4746511599396595" />
+        <EntityTypeShape EntityType="Soft365Model.tblProduct_Variant" Width="1.5" PointX="5.6394170995985231" PointY="17.174756192217934" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductAttribute" Width="1.5" PointX="11.372388805901814" PointY="24.089671652805837" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductFilter" Width="1.5" PointX="9.8219192036529641" PointY="0.344938904207637" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductGroupAttribute" Width="1.5" PointX="2.6489495740500044" PointY="29.212999133958014" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductLabel" Width="1.5" PointX="8.1322945580502477" PointY="0.060507223038239043" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductStatus" Width="1.5" PointX="8.6283767934089415" PointY="17.955082305686123" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductType_Group_Map" Width="1.5" PointX="5.3442826668472412" PointY="13.018222323161654" />
+        <EntityTypeShape EntityType="Soft365Model.tblProductTypeGroup" Width="1.5" PointX="8.6644358358645981" PointY="6.931277024993336" />
+        <EntityTypeShape EntityType="Soft365Model.tblReceiveInfo" Width="1.5" PointX="4.1494928561847164" PointY="3.6311023550252908" />
+        <EntityTypeShape EntityType="Soft365Model.tblReceiveInfoGroup" Width="1.5" PointX="4.6414217747009463" PointY="11.15965883953481" />
+        <EntityTypeShape EntityType="Soft365Model.tblSupport" Width="1.5" PointX="7.6769057976440092" PointY="27.473219765104922" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypeArticle" Width="1.5" PointX="11.406026428288792" PointY="29.033791883398681" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypeFile" Width="1.5" PointX="8.8337571699329445" PointY="0.82636068799829143" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypeLog" Width="1.5" PointX="4.1626459062856833" PointY="13.651422819891677" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypePicture" Width="1.5" PointX="1.114478594211153" PointY="24.040693279374715" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypeProduct" Width="1.5" PointX="9.07570196179473" PointY="31.633684798904547" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypeSupport" Width="1.5" PointX="11.830370815391824" PointY="11.862291416089187" />
+        <EntityTypeShape EntityType="Soft365Model.tblTypeVideo" Width="1.5" PointX="6.9253449584009807" PointY="4.982660325701656" />
+        <EntityTypeShape EntityType="Soft365Model.tblVideo" Width="1.5" PointX="2.6110329118608653" PointY="6.6164331615979011" />
+        <EntityTypeShape EntityType="Soft365Model.UserProfile" Width="1.5" PointX="7.1893917169372514" PointY="11.997145911677343" />
+        <EntityTypeShape EntityType="Soft365Model.webpages_Membership" Width="1.5" PointX="10.345536767666012" PointY="19.407702380515495" />
+        <EntityTypeShape EntityType="Soft365Model.webpages_OAuthMembership" Width="1.5" PointX="11.457777326674096" PointY="15.688305176649385" />
+        <EntityTypeShape EntityType="Soft365Model.webpages_Roles" Width="1.5" PointX="10.207707685515148" PointY="11.978789573525447" />
+        <AssociationConnector Association="Soft365Model.FK_tblAdverties_Picture_tblAdvertise" />
+        <AssociationConnector Association="Soft365Model.FK_tblAdverties_Picture_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblArticle_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblGroup_News_Map_tblNews" />
+        <AssociationConnector Association="Soft365Model.FK_tblNews_tblTypeNews" />
+        <AssociationConnector Association="Soft365Model.FK_tblComment_tblAccount" />
+        <AssociationConnector Association="Soft365Model.FK_tblComment_tblProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblCustomer_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblOrder_tblCustomer" />
+        <AssociationConnector Association="Soft365Model.FK_tblDistributor_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_tblDistributor" />
+        <AssociationConnector Association="Soft365Model.FK_tblFile_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblFile_tblTypeFile" />
+        <AssociationConnector Association="Soft365Model.FK_tblVideo_tblFile" />
+        <AssociationConnector Association="Soft365Model.FK_tblGroup_News_Map_tblGroupNews" />
+        <AssociationConnector Association="Soft365Model.FK_tblGroup_TypeArticle_Map_tblGroupTypeArticle" />
+        <AssociationConnector Association="Soft365Model.FK_tblGroup_TypeArticle_Map_tblTypeArticle" />
+        <AssociationConnector Association="Soft365Model.FK_tblGroupNews_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblGroupTypeArticle_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblLayoutContent_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblManufacturer_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_tblManufacturer" />
+        <AssociationConnector Association="Soft365Model.FK_tblMenu_tblMenu" />
+        <AssociationConnector Association="Soft365Model.FK_tblOrder_Shipping_tblOrder" />
+        <AssociationConnector Association="Soft365Model.FK_tblOrder_tblOrder_Status" />
+        <AssociationConnector Association="Soft365Model.FK_tblOrderDetail_tblOrder" />
+        <AssociationConnector Association="Soft365Model.FK_tblOrderDetail_tblProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblOrderDetail_tblProduct_Variant" />
+        <AssociationConnector Association="Soft365Model.FK_tblPage_tblPage" />
+        <AssociationConnector Association="Soft365Model.FK_tblImage_tblTypeImage" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblProductLabel_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeArticle_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeFile_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeImage_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeProduct_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeVideo_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblVideo_tblPicture" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_Attribute_Map_tblProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_Status_Map_tblProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_tblTypeProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_Variant_tblProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_Attribute_Map_tblProductAttribute" />
+        <AssociationConnector Association="Soft365Model.FK_tblProduct_Status_Map_tblProductStatus" />
+        <AssociationConnector Association="Soft365Model.FK_tblProductAttribute_tblProductGroupAttribute" />
+        <AssociationConnector Association="Soft365Model.FK_tblProductFilter_tblProductFilter" />
+        <AssociationConnector Association="Soft365Model.FK_tblProductGroupAttribute_tblTypeProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblProductType_Group_Map_tblProductTypeGroup" />
+        <AssociationConnector Association="Soft365Model.FK_tblProductType_Group_Map_tblTypeProduct" />
+        <AssociationConnector Association="Soft365Model.FK_tblReceiveInfo_tblReceiveInfoGroup" />
+        <AssociationConnector Association="Soft365Model.FK_tblSupport_tblTypeSupport" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeArticle_tblTypeArticle" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeFile_tblTypeFile" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeImage_tblTypeImage" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeProduct_tblTypeProduct1" />
+        <AssociationConnector Association="Soft365Model.FK_tblTypeVideo_tblTypeVideo" />
+        <AssociationConnector Association="Soft365Model.FK_tblVideo_tblTypeVideo" />
+        <AssociationConnector Association="Soft365Model.tblArticle_Picture_Map" />
+        <AssociationConnector Association="Soft365Model.tblPage_Role" />
+        <AssociationConnector Association="Soft365Model.tblProduct_File_Map" />
+        <AssociationConnector Association="Soft365Model.tblProduct_Filter_Map" />
+        <AssociationConnector Association="Soft365Model.tblProduct_Label_Map" />
+        <AssociationConnector Association="Soft365Model.tblProduct_Picture_Map" />
+        <AssociationConnector Association="Soft365Model.tblTypeProduct_Picture_Map" />
+        <AssociationConnector Association="Soft365Model.webpages_UsersInRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

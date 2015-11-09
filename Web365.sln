@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365", "Web365\Web365.csproj", "{50239255-FCC3-403F-84E6-16B0F40CE35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Base", "Web365Base\Web365Base.csproj", "{FB4B7C6D-045E-40BE-9FAA-0015E3F53C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Business", "Web365Business\Web365Business.csproj", "{3F77DCF1-E9E7-443B-B17A-A4D4511ECDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Domain", "Web365Domain\Web365Domain.csproj", "{C24BE151-FC63-4A94-B796-FD222BD8399E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Utility", "Web365Utility\Web365Utility.csproj", "{C1C417C8-8C37-44DC-89A3-1552CF167F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Cached", "Web365Cached\Web365Cached.csproj", "{70E8B2C6-F5D5-4018-B9F2-BC1CDAFC7BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Models", "Web365Models\Web365Models.csproj", "{396DBC4B-90A2-4DC5-AFF8-9BD9E10386C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{97CD2CB4-7164-4831-8DAC-B870E2752B3D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50239255-FCC3-403F-84E6-16B0F40CE35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50239255-FCC3-403F-84E6-16B0F40CE35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50239255-FCC3-403F-84E6-16B0F40CE35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50239255-FCC3-403F-84E6-16B0F40CE35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4B7C6D-045E-40BE-9FAA-0015E3F53C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4B7C6D-045E-40BE-9FAA-0015E3F53C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4B7C6D-045E-40BE-9FAA-0015E3F53C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4B7C6D-045E-40BE-9FAA-0015E3F53C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F77DCF1-E9E7-443B-B17A-A4D4511ECDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F77DCF1-E9E7-443B-B17A-A4D4511ECDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F77DCF1-E9E7-443B-B17A-A4D4511ECDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F77DCF1-E9E7-443B-B17A-A4D4511ECDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24BE151-FC63-4A94-B796-FD222BD8399E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24BE151-FC63-4A94-B796-FD222BD8399E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24BE151-FC63-4A94-B796-FD222BD8399E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24BE151-FC63-4A94-B796-FD222BD8399E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C417C8-8C37-44DC-89A3-1552CF167F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C417C8-8C37-44DC-89A3-1552CF167F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C417C8-8C37-44DC-89A3-1552CF167F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C417C8-8C37-44DC-89A3-1552CF167F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E8B2C6-F5D5-4018-B9F2-BC1CDAFC7BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E8B2C6-F5D5-4018-B9F2-BC1CDAFC7BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E8B2C6-F5D5-4018-B9F2-BC1CDAFC7BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E8B2C6-F5D5-4018-B9F2-BC1CDAFC7BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396DBC4B-90A2-4DC5-AFF8-9BD9E10386C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396DBC4B-90A2-4DC5-AFF8-9BD9E10386C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396DBC4B-90A2-4DC5-AFF8-9BD9E10386C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396DBC4B-90A2-4DC5-AFF8-9BD9E10386C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

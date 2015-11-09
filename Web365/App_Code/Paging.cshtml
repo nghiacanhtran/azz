@@ -1,0 +1,52 @@
+﻿@helper Page(int totalRecord, int current, int pageSize)
+{ 
+    <nav class="bh-lprod-paging">
+        <ul class="pagination">
+            <li>
+                <a href="@Request.Url.AbsolutePath?page=@(current - 1)" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+
+            @{ var total = totalRecord % pageSize > 0 ? (totalRecord / pageSize) + 1 : totalRecord / pageSize; }
+
+            @if (total < 6)
+            {
+                for (int i = 1; i <= total; i++)
+                {
+                    <li class="@(i == current ? "active" : string.Empty)"><a href="@Request.Url.AbsolutePath?page=@i">@i</a></li>
+                }
+            }
+
+            @if (current < 3 && total > 5)
+            {
+                for (int i = 1; i <= 5; i++)
+                {
+                    <li class="@(i == current ? "active" : string.Empty)"><a href="@Request.Url.AbsolutePath?page=@i">@i</a></li>
+                }
+            }
+
+            @if (current > total - 2 && total > 5)
+            {
+                for (int i = total - 5; i <= total; i++)
+                {
+                    <li class="@(i == current ? "active" : string.Empty)"><a href="@Request.Url.AbsolutePath?page=@i">@i</a></li>
+                }
+            }
+
+            @if (current > 2 && current < total - 2 && total > 5)
+            {
+                for (int i = current - 2; i <= current + 2; i++)
+                {
+                    <li class="@(i == current ? "active" : string.Empty)"><a href="@Request.Url.AbsolutePath?page=@i">@i</a></li>
+                }
+            }
+
+            <li>
+                <a href="@Request.Url.AbsolutePath?page=@(current + 1)" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+}

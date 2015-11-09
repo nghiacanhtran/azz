@@ -1,0 +1,104 @@
+﻿<form name="modified_form" class="form-horizontal" id="modified-form" ng-submit="submit($event)" ng-controller="contactModified" novalidate>
+    <div class="content-modal">
+        <div class="modal-header">
+            <a href="javascript:;" class="close" ng-click="cancel()">×</a>
+            <h3 class="modal-title" ng-if="data.ID == 0">Thêm liên hệ</h3>
+            <h3 class="modal-title" ng-if="data.ID != 0">Chỉnh sửa nội dung web: {{data.Name}}</h3>
+        </div>
+        <div class="modal-body">
+            <div class="row-fluid">
+                <input type="hidden" name="ID" ng-value="data.ID" ng-model="data.ID" />
+                <div class="control-group">
+                    <label class="control-label" for="Name">Tên khách hàng:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Name" ng-model="data.Name" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Gender">Giới tính:</label>
+                    <div class="controls">
+                        <div class="span3">
+                            <label>
+                                <input type="checkbox" class="ace-switch ace-switch-1" name="Gender" ng-value="data.Gender" ng-model="data.Gender" />
+                                <span class="lbl gender"></span>
+                                <input type="hidden" name="Gender" ng-value="data.Gender" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Email">Email:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Email" ng-model="data.Email" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Phone">Số ĐT:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Phone" ng-model="data.Phone" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="BirthDay">Ngày sinh:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="BirthDay" value="{{parserDate(data.BirthDay) | date:'dd-MM-yyyy HH:mm:ss'}}" />
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="control-group">
+                    <label class="control-label" for="Facebook">Link Facebook:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Facebook" ng-model="data.Facebook" />
+                        </div>
+                    </div>
+                </div>-->
+                <!--<div class="control-group">
+                    <label class="control-label" for="Address">Địa chỉ:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Address" ng-model="data.Address" />
+                        </div>
+                    </div>
+                </div>-->
+                <div class="control-group">
+                    <label class="control-label" for="IsViewed">Đã xem:</label>
+                    <div class="controls">
+                        <div class="span3">
+                            <label>
+                                <input type="checkbox" class="ace-switch ace-switch-1" name="IsViewed" ng-value="data.IsViewed" ng-model="data.IsViewed" />
+                                <span class="lbl"></span>
+                                <input type="hidden" name="IsViewed" ng-value="data.IsViewed" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Title">Dự án:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Title" ng-model="data.Title" />
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="control-group">                    
+                    <label class="control-label" for="Message">Chi tiết liên hệ:</label>
+                    <div class="controls">
+                        <textarea name="Message" ng-model="data.Message" ck-editor></textarea>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <a href="javascript:;" class="btn btn-warning" ng-click="cancel()">Thoát</a>
+        </div>
+    </div>
+</form>

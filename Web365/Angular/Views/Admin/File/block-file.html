@@ -1,0 +1,22 @@
+﻿<div class="row-fluid">
+    <ul class="ace-thumbnails list-sort-able" sortable>
+        <li class="item-sort-able" data-id="{{item.ID}}" ng-repeat="item in listSelected">
+            <a href="javascript:;">
+                <img alt="{{item.Alt}}" ng-src="/Content/Admin/css/images/icon-file-pdf.png" width="150" height="150" />
+                <div class="text">
+                    <div class="inner">{{item.Name}}</div>
+                </div>
+            </a>            
+            <div class="tools tools-bottom">
+                <a href="javascript:;" ng-click="removeFile($event, item.ID)">
+                    <i class="icon-remove red"></i>
+                </a>
+            </div>
+        </li>
+        <li class="choice-picture">
+            <a href="javascript:;" title="Chọn ảnh" ng-click="selectFile()">
+                <i class="icon-file"></i>
+            </a>
+        </li>
+    </ul>
+</div>
